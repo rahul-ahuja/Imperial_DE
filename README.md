@@ -1,20 +1,25 @@
 # 1. Folder Structure
 ```
-├── src
-│   ├── controller
-│   │   ├── **/*.css
-│   ├── views
-│   ├── model
-│   ├── index.js
-├── public
-│   ├── css
-│   │   ├── **/*.css
-│   ├── images
-│   ├── js
-│   ├── index.html
-├── dist (or build
-├── node_modules
-├── package.json
-├── package-lock.json
+├── model
+│   ├── Data analysis.ipynb
+│   ├── model.ipynb
+│   ├── model.joblib
+├── db
+│   ├── db.py
+│   ├── test.db
+├── tests
+│   ├── __init__.py
+│   ├── conftest.py
+│   ├── test_db.py
+├── Dockerfile
+├── app.py
+├── app.log
+├── server.py
+├── server.log
+├── requirements.txt
+├── README.md
+├── notes
+├── environment.yml
+├── server.py
 └── .gitignore
 ```
