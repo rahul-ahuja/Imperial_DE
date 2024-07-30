@@ -23,15 +23,15 @@
 └── .gitignore
 ```
 
-2. Setting up the project by conda
+# 2. Setting up the project by conda
    
 `conda env create -f environment.yml`
 `conda activate imperial_de`
 
-3. Setup the database to collect the data entered into the API
+# 3. Setup the database to collect the data entered into the API
 `python db/db.py`
 
-3. Run the Model Serving
+# 4. Run the Model Serving
 By using the argparse. For example,
 
 `python app.py --home-id "fknr324" --bathroom1 3423 --hallway 342143`
@@ -39,4 +39,4 @@ By using the argparse. For example,
 Or by running the app on FastAPI
 ` uvicorn serve:app`
 
-4. (Optionally) run the app on the Docker
+# 5. (Optionally) run the app on the Docker
