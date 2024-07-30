@@ -54,3 +54,9 @@ uvicorn serve:app
 docker push 785854/mlapp:latest
 docker run -d --name mlapp -p 8000:8000 785854/mlapp:latest
 ```
+
+6. Test the FastAPI on the localhost with port number as below;
+
+```
+http://127.0.0.1:8000/docs
+```
