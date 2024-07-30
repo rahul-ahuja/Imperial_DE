@@ -1,4 +1,5 @@
 # 1. Folder Structure
+```
 ├── src
 │   ├── controller
 │   │   ├── **/*.css
@@ -16,3 +17,4 @@
 ├── package.json
 ├── package-lock.json
 └── .gitignore
+```
