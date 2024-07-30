@@ -1,31 +1,24 @@
 # 1. Folder Structure
 
 .
-├── docs # Documentation files (alternatively doc)
-│ ├── index.md # Main documentation file
-│ └── ... # Other documentation files
-├── src # Source files (alternatively lib or app)
-│ ├── main.py # Main application script
-│ ├── module1.py # Module 1
-│ └── ... # Other modules and scripts
-├── tests # Test files
-│ ├── test_main.py # Tests for the main application script
-│ └── ... # Other test files
-├── data # Data files
-│ ├── raw # Raw data files
-│ ├── processed # Processed data files
-│ └── ... # Other data files
-├── config # Configuration files
-│ ├── config.yaml # Main configuration file
-│ └── ... # Other configuration files
-├── scripts # Utility scripts
-│ ├── preprocess_data.py # Script for data preprocessing
-│ └── ... # Other utility scripts
-├── notebooks # Jupyter notebooks
-│ ├── analysis.ipynb # Analysis notebook
-│ └── ... # Other notebooks
-├── .gitignore # Git ignore file
-├── README.md # Project README file
-├── requirements.txt # Python dependencies
-├── setup.py # Setup script for installing the package
-└── LICENSE # License file
+├── docs
+├── model                                                                 # trained model, saved all code the models
+│   └── 2018-11-22_14-44_se_resnext50_16x4d_usgn_64_gaze_xVal0
+├── pulsepytools                                                          # the PULSE's pulsepytools: 2.0.0 (64f8103770ae19dd8c5324e61459b72a27fa0a4e)
+├── tests
+│   ├── configuration.py
+│   └── test_inference.py
+├── usgazenet                                                             # the us gaze data
+|   ├── __init__.py
+|   ├── classifier.py
+|   ├── config
+|   ├── datasets.py
+|   ├── eval.py
+|   ├── model.py
+|   ├── models
+|   ├── retrain.py
+│   ├── salretrain.py
+│   └── train.py
+│
+├── requirements.txt
+└── readme.md
