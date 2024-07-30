@@ -60,3 +60,8 @@ docker run -d --name mlapp -p 8000:8000 785854/mlapp:latest
 ```
 http://127.0.0.1:8000/docs
 ```
+
+# 7. (Optional) To run the unit test on the database, 
+```
+pytest  #run on the main directory
+```
