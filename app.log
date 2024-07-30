@@ -1,0 +1,46 @@
+2024-07-28 23:42:54,584 - serve - INFO - Received request with data: {"home_id":"string","bathroom1":0,"hallway":0}
+2024-07-28 23:42:54,587 - serve - INFO - Prediction result: Single Occupant
+2024-07-29 00:05:36,352 - uvicorn.error - INFO - Started server process [5740]
+2024-07-29 00:05:36,352 - uvicorn.error - INFO - Waiting for application startup.
+2024-07-29 00:05:36,353 - uvicorn.error - INFO - Application startup complete.
+2024-07-29 00:08:36,164 - uvicorn.error - INFO - Shutting down
+2024-07-29 00:08:36,266 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-07-29 00:08:36,267 - uvicorn.error - INFO - Application shutdown complete.
+2024-07-29 00:08:36,267 - uvicorn.error - INFO - Finished server process [5740]
+2024-07-29 00:11:03,200 - uvicorn.error - INFO - Started server process [5824]
+2024-07-29 00:11:03,200 - uvicorn.error - INFO - Waiting for application startup.
+2024-07-29 00:11:03,200 - uvicorn.error - INFO - Application startup complete.
+2024-07-29 00:11:30,305 - uvicorn.error - INFO - Shutting down
+2024-07-29 00:11:30,407 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-07-29 00:11:30,408 - uvicorn.error - INFO - Application shutdown complete.
+2024-07-29 00:11:30,408 - uvicorn.error - INFO - Finished server process [5824]
+2024-07-29 00:11:40,752 - uvicorn.error - INFO - Started server process [5836]
+2024-07-29 00:11:40,752 - uvicorn.error - INFO - Waiting for application startup.
+2024-07-29 00:11:40,752 - uvicorn.error - INFO - Application startup complete.
+2024-07-29 00:12:40,419 - uvicorn.error - INFO - Shutting down
+2024-07-29 00:12:40,521 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-07-29 00:12:40,522 - uvicorn.error - INFO - Application shutdown complete.
+2024-07-29 00:12:40,522 - uvicorn.error - INFO - Finished server process [5836]
+2024-07-29 00:12:41,454 - uvicorn.error - INFO - Started server process [5912]
+2024-07-29 00:12:41,454 - uvicorn.error - INFO - Waiting for application startup.
+2024-07-29 00:12:41,455 - uvicorn.error - INFO - Application startup complete.
+2024-07-29 00:13:00,763 - uvicorn.error - INFO - Shutting down
+2024-07-29 00:13:00,864 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-07-29 00:13:00,865 - uvicorn.error - INFO - Application shutdown complete.
+2024-07-29 00:13:00,865 - uvicorn.error - INFO - Finished server process [5912]
+2024-07-29 00:13:01,786 - uvicorn.error - INFO - Started server process [5916]
+2024-07-29 00:13:01,786 - uvicorn.error - INFO - Waiting for application startup.
+2024-07-29 00:13:01,786 - uvicorn.error - INFO - Application startup complete.
+2024-07-29 00:13:09,065 - uvicorn.error - INFO - Shutting down
+2024-07-29 00:13:09,167 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-07-29 00:13:09,168 - uvicorn.error - INFO - Application shutdown complete.
+2024-07-29 00:13:09,168 - uvicorn.error - INFO - Finished server process [5916]
+2024-07-29 00:13:19,223 - uvicorn.error - INFO - Started server process [5924]
+2024-07-29 00:13:19,223 - uvicorn.error - INFO - Waiting for application startup.
+2024-07-29 00:13:19,223 - uvicorn.error - INFO - Application startup complete.
+2024-07-29 00:15:41,007 - uvicorn.error - INFO - Shutting down
+2024-07-29 00:15:41,107 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-07-29 00:15:41,108 - uvicorn.error - INFO - Application shutdown complete.
+2024-07-29 00:15:41,108 - uvicorn.error - INFO - Finished server process [5924]
+2024-07-30 14:00:16,228 - __main__ - INFO - Data entries saved successfully to the database
+2024-07-30 14:01:18,592 - __main__ - INFO - Data entries saved successfully to the database
