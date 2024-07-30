@@ -25,19 +25,28 @@
 
 # 2. Setting up the project by conda
    
-`conda env create -f environment.yml`
-`conda activate imperial_de`
+```
+conda env create -f environment.yml
+conda activate imperial_de
+```
 
 # 3. Setup the database to collect the data entered into the API
-`python db/db.py`
+
+```
+python db/db.py
+```
 
 # 4. Run the Model Serving
 By using the argparse. For example,
 
-`python app.py --home-id "fknr324" --bathroom1 3423 --hallway 342143`
+```
+python app.py --home-id "fknr324" --bathroom1 3423 --hallway 342143
+```
 
 Or by running the app on FastAPI
-` uvicorn serve:app`
+``` 
+uvicorn serve:app
+```
 
 # 5. (Optionally) Run the app on the Docker. Docker enables us to run the app on any platform without requiring specific configuration
 
