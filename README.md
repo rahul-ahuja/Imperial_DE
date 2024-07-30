@@ -39,7 +39,7 @@ By using the argparse. For example,
 Or by running the app on FastAPI
 ` uvicorn serve:app`
 
-# 5. (Optionally) Run the app on the Docker
+# 5. (Optionally) Run the app on the Docker. Docker enables us to run the app on any platform without requiring specific configuration
 
 ```
 docker push 785854/mlapp:latest
