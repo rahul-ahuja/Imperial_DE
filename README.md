@@ -51,7 +51,7 @@ uvicorn serve:app
 # 5. (Optionally) Run the app on the Docker. Docker enables us to run the app on any platform without requiring specific configuration
 
 ```
-docker push 785854/mlapp:latest
+docker pull 785854/mlapp:latest
 docker run -d --name mlapp -p 8000:8000 785854/mlapp:latest
 ```
 
